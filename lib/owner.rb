@@ -39,6 +39,7 @@ end
 
 def buy_cat(name)
   @new_cat = Cat.new(name, self)
+  self.pets << self
 end
 
 def buy_dog(name)
