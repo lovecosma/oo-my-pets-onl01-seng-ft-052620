@@ -38,10 +38,12 @@ end
 
 def buy_cat(name)
   @new_cat = Cat.new(name, self)
+  @@all_pets << @new_cat
 end
 
 def buy_dog(name)
   @new_dog = Dog.new(name, self)
+  @@all_pets << @new_dog
 end
 
 def walk_dogs
