@@ -35,12 +35,10 @@ def dogs
 @dogs
 end
 
-def buy_cat
+def buy_cat(name)
   @new_cat = Cat.new
 end
 
-def name_cat(name)
-  @new_cat.name = name
-end
+
 
 end
