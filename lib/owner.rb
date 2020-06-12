@@ -4,7 +4,6 @@ class Owner
   def initialize(name)
   @name = name
   end
-end
 
 def species=(species)
   @species = species
