@@ -14,6 +14,7 @@ def say_species
 end
 
 def self.all
-end 
+  
+end
 
 end
