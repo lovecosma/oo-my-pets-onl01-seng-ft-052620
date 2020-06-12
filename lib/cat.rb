@@ -5,8 +5,6 @@ attr_accessor :owner, :mood, :cats, :dogs
 def initialize(name, owner)
   @name = name
   @owner = owner
-  @dogs = []
-  @cats = []
   @mood = "nervous"
   @@all << self
 
