@@ -63,6 +63,7 @@ self.pets.each do |pet|
 end
 self.cats.clear
 self.dogs.clear
+binding.pry
 end
 
 end
