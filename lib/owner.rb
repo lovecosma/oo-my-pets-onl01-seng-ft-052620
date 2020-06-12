@@ -62,6 +62,7 @@ self.pets.each do |pet|
   pet.mood = "nervous"
 end
 self.cats.clear
+self.dogs.clear
 end
 
 end
