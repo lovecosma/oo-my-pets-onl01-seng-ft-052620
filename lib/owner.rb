@@ -39,6 +39,9 @@ def buy_cat(name)
   @new_cat = Cat.new(name, self)
 end
 
+def buy_dog(name)
+  @new_cat = Cat.new(name, self)
+end
 
 
 end
