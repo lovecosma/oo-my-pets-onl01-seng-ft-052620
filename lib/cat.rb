@@ -15,5 +15,8 @@ def self.all
 @@all
 end
 
+def sell
+  @owner = nil
+end
 
 end
