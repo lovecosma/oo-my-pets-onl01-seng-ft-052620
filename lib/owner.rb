@@ -35,5 +35,8 @@ def dogs
 @dogs
 end
 
+def buy_cat
+  @new_cat = Cat.new
+end 
 
 end
