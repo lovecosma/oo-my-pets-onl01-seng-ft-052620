@@ -1,5 +1,5 @@
 class Owner
-  attr_reader :name
+  attr_writer :name
   def initialize(name)
     self.name = name
   end
