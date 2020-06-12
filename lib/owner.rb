@@ -56,10 +56,10 @@ def feed_cats
 end
 
 def sell_pets
-  self.dog each do |dog|
+  self.dogs each do |dog|
     dog.mood = "nervous"
   end
-  self.cat each do |cat|
+  self.cats each do |cat|
     cat.mood = "nervous"
   end
 end
