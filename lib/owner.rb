@@ -39,4 +39,7 @@ def buy_cat
   @new_cat = Cat.new
 end
 
+def name_cat(name)
+end
+
 end
