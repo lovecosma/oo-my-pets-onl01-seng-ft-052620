@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor
+  attr_accessor :cats, :dogs
   attr_reader :name, :species
   @@all = []
 
@@ -24,6 +24,10 @@ end
 def self.reset_all
   @@all.clear
 end
+
+def cats
+  
+end 
 
 
 end
