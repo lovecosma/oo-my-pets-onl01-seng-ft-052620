@@ -1,5 +1,5 @@
 class Cat
-reader :name
+reader name:, owner:
 
 def initialize(name)
   @name = name
