@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor 
+  attr_accessor
   attr_reader :name, :species
 
 
@@ -10,7 +10,7 @@ class Owner
 
 def say_species
   
-end 
+end
 
 
 
