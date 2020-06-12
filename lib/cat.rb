@@ -8,6 +8,7 @@ def initialize(name, owner)
   @mood = "nervous"
   @@all << self
   @owner.cats << self
+  @owners.pets
 end
 
 def self.all
