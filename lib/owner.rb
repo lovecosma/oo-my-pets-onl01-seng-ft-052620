@@ -60,9 +60,8 @@ end
 def sell_pets
 self.pets.each do |pet|
   pet.mood = "nervous"
-  self.cats.clear
-  self.dogs.clear
 end
+self.pets.clear
 end
 
 end
