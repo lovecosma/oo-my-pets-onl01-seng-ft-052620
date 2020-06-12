@@ -63,7 +63,7 @@ self.pets.each do |pet|
   pet.mood = "nervous"
 end
 self.pets.clear
-binding.pry
+
 end
 
 end
