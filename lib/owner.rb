@@ -26,8 +26,8 @@ def self.reset_all
 end
 
 def cats
-  
-end 
+
+end
 
 
 end
