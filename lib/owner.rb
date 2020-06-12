@@ -8,13 +8,7 @@ class Owner
   @species = "human"
   end
 
-def species=(species)
-  @species = species
-end
 
-def species
-  @species
-end
 
 
 end
