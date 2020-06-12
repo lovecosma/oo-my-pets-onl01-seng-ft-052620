@@ -22,7 +22,7 @@ def self.count
 end
 
 def self.reset_all
-  @@all.count
+  @@all.clear
 end
 
 end
