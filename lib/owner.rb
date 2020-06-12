@@ -59,7 +59,7 @@ def sell_pets
   self.dog each do |dog|
     dog.mood = "nervous"
   end
-  self.cat each do |dog|
+  self.cat each do |cat|
     dog.mood = "nervous"
   end
 end
