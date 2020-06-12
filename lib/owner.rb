@@ -36,7 +36,7 @@ def dogs
 end
 
 def buy_cat(name)
-  @new_cat = Cat.new
+  @new_cat = Cat.new(name)
 end
 
 
