@@ -49,4 +49,10 @@ def walk_dogs
   end
 end
 
+def feed_cats
+  self.dogs.each do |dog|
+    dog.mood = "happy"
+  end
+end
+
 end
