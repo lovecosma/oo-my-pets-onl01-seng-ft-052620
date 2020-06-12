@@ -7,5 +7,5 @@ class Owner
 end
 
 def species=(species)
-  self.species = species
+  @species = species
 end
