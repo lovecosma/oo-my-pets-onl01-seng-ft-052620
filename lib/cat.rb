@@ -10,7 +10,7 @@ def initialize(name, owner)
 end
 
 def self.all
-
+@@all 
 end
 
 
